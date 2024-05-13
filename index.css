@@ -1,0 +1,36 @@
+#clockcontainer {
+  position: relative; /* to move hands of clock relative to the container */
+  margin: auto;   /* it will center the image inside the div. */
+  height: 40vw;
+  width:  40vw;
+  background-image: url('./clock.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#hour, #minute, #second {
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+}
+#hour {
+  height: 20%;
+  width: 1.6%;
+  top: 27%;
+  left: 48.98%;
+  opacity: 0.8;
+}
+#minute {
+  height: 35%;
+  width: 1.4%;
+  top: 18%;
+  left: 48.98%;
+  opacity: 0.6;
+}
+#second {
+  height: 41%;
+  width: 1.1%;
+  top: 12%;
+  left: 48.98%;
+  opacity: 0.4;
+  
+}
